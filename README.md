@@ -13,7 +13,15 @@ o View listens to 'ModelDidChange' notification, updates itself as necessary.
 o ViewController has been largely eliminated.
 
 
+# Observations
 
+o There are fewer entities, and their interactions are simpler.  
+
+o 20 lines less code
+
+o String drawing APIs are sub-optimal
+
+o Hard-coded values for rectangles suck
 
 
 # Original Readme

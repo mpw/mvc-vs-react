@@ -45,8 +45,14 @@
     
     [self drawCounterValue:[self.counters upCounter] inRect:CGRectMake(155, 110, 246, 170) color:[UIColor blackColor]];
     [self drawCounterValue:[self.counters downCounter] inRect:CGRectMake(15, 290, 246, 170)color:[UIColor redColor]];
+ 
+    [@"2nd representation of counter values" drawInRect:CGRectMake(10, 480, 300, 50) withAttributes:nil];
     
+    [[NSString stringWithFormat:@"Your name is: %@",self.counters.name] drawInRect:CGRectMake(10, 500, 300, 50) withAttributes:nil];
     
+    [[NSString stringWithFormat:@"Counter 1: %d Counter 2: %d",self.counters.upCounter,self.counters.downCounter] drawInRect:CGRectMake(10, 540, 300, 50) withAttributes:nil];
+   
+
 }
 
 //---- actions
