@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F89FA6D1AD283D30046DD81 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1F89FA6C1AD283D30046DD81 /* README.md */; };
+		1F89FA701AD289080046DD81 /* CounterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89FA6F1AD289080046DD81 /* CounterModel.m */; };
 		C05F564F1AD149E600865C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F564E1AD149E600865C2F /* main.m */; };
 		C05F56521AD149E600865C2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F56511AD149E600865C2F /* AppDelegate.m */; };
 		C05F56551AD149E600865C2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F56541AD149E600865C2F /* ViewController.m */; };
@@ -14,9 +16,7 @@
 		C05F565A1AD149E600865C2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05F56591AD149E600865C2F /* Images.xcassets */; };
 		C05F565D1AD149E600865C2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05F565B1AD149E600865C2F /* LaunchScreen.xib */; };
 		C05F56691AD149E600865C2F /* singleviewtest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F56681AD149E600865C2F /* singleviewtest2Tests.m */; };
-		C05F56731AD1557000865C2F /* Counters.m in Sources */ = {isa = PBXBuildFile; fileRef = C05F56721AD1557000865C2F /* Counters.m */; };
 		C0BBF43A1AD18DC900B5D7C2 /* CounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BBF4391AD18DC900B5D7C2 /* CounterView.m */; };
-		C0BBF43C1AD1980E00B5D7C2 /* ChildComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BBF43B1AD1980E00B5D7C2 /* ChildComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F89FA6C1AD283D30046DD81 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1F89FA6E1AD289080046DD81 /* CounterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterModel.h; sourceTree = "<group>"; };
+		1F89FA6F1AD289080046DD81 /* CounterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterModel.m; sourceTree = "<group>"; };
 		C05F56491AD149E600865C2F /* singleviewtest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = singleviewtest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05F564D1AD149E600865C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05F564E1AD149E600865C2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,12 +46,8 @@
 		C05F56621AD149E600865C2F /* singleviewtest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singleviewtest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05F56671AD149E600865C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05F56681AD149E600865C2F /* singleviewtest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singleviewtest2Tests.m; sourceTree = "<group>"; };
-		C05F56721AD1557000865C2F /* Counters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Counters.m; sourceTree = "<group>"; };
-		C05F56741AD1558600865C2F /* Counters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Counters.h; sourceTree = "<group>"; };
 		C0BBF4381AD18DC900B5D7C2 /* CounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterView.h; sourceTree = "<group>"; };
 		C0BBF4391AD18DC900B5D7C2 /* CounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterView.m; sourceTree = "<group>"; };
-		C0BBF43B1AD1980E00B5D7C2 /* ChildComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildComponent.m; sourceTree = "<group>"; };
-		C0BBF43D1AD1985400B5D7C2 /* ChildComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildComponent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +93,10 @@
 				C05F56511AD149E600865C2F /* AppDelegate.m */,
 				C0BBF4381AD18DC900B5D7C2 /* CounterView.h */,
 				C0BBF4391AD18DC900B5D7C2 /* CounterView.m */,
-				C0BBF43B1AD1980E00B5D7C2 /* ChildComponent.m */,
-				C0BBF43D1AD1985400B5D7C2 /* ChildComponent.h */,
 				C05F56531AD149E600865C2F /* ViewController.h */,
 				C05F56541AD149E600865C2F /* ViewController.m */,
-				C05F56721AD1557000865C2F /* Counters.m */,
-				C05F56741AD1558600865C2F /* Counters.h */,
+				1F89FA6E1AD289080046DD81 /* CounterModel.h */,
+				1F89FA6F1AD289080046DD81 /* CounterModel.m */,
 				C05F56561AD149E600865C2F /* Main.storyboard */,
 				C05F56591AD149E600865C2F /* Images.xcassets */,
 				C05F565B1AD149E600865C2F /* LaunchScreen.xib */,
@@ -111,6 +108,7 @@
 		C05F564C1AD149E600865C2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F89FA6C1AD283D30046DD81 /* README.md */,
 				C05F564D1AD149E600865C2F /* Info.plist */,
 				C05F564E1AD149E600865C2F /* main.m */,
 			);
@@ -234,9 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BBF43C1AD1980E00B5D7C2 /* ChildComponent.m in Sources */,
-				C05F56731AD1557000865C2F /* Counters.m in Sources */,
+				1F89FA701AD289080046DD81 /* CounterModel.m in Sources */,
 				C05F56551AD149E600865C2F /* ViewController.m in Sources */,
+				1F89FA6D1AD283D30046DD81 /* README.md in Sources */,
 				C05F56521AD149E600865C2F /* AppDelegate.m in Sources */,
 				C05F564F1AD149E600865C2F /* main.m in Sources */,
 				C0BBF43A1AD18DC900B5D7C2 /* CounterView.m in Sources */,

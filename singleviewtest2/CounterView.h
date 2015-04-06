@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ChildComponent.h"
 
-@interface CounterView : ChildComponent
+@interface CounterView : UIView
 
-@property (strong) NSNumber *counter;
-@property (strong) NSString *inputText;
 
+
+- (IBAction)increment:(id)sender;
+- (IBAction)decrement:(id)sender;
+- (IBAction)handleEditingChanged:(id)sender;
 
 @end
