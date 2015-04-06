@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class CounterModel;
+
 @interface CounterView : UIView
+
+@property (nonatomic,strong) CounterModel *counters;
 
 
 

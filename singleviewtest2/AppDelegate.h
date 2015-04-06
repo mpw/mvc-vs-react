@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class CounterModel;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) CounterModel *counters;
 
 @end
 

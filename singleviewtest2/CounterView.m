@@ -3,7 +3,6 @@
 
 @interface CounterView()
 
-@property (nonatomic,strong) CounterModel *counters;
 @property (nonatomic,strong) IBOutlet UIButton *incrementButton;
 @property (nonatomic,strong) IBOutlet UIButton *decrementButton;
 

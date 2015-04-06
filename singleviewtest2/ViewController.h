@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class CounterView;
+
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet CounterView *counterView;
 
 @end
 
